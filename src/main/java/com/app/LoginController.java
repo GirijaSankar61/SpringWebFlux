@@ -19,8 +19,8 @@ public class LoginController {
 	
 	@GetMapping("/")
     public String helloHandler () {
-		Employee emp=new Employee();
-//		emp.setN
+//		Employee emp=new Employee();
+////		emp.setN
 		
         return "<h1>Hello "+applicationName+"</h1>";
     }
